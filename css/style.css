@@ -1,0 +1,102 @@
+body {
+	background: #EFEFEF;
+	font-family: helvetica;
+}
+
+.header {
+	/*margin: 30px 0 30px 10%;
+	width: 308px;*/
+	text-align: center;
+	margin: 50px 0 45px 0;
+}
+
+.header img {
+	float: left;
+	width: 89px;
+	margin-right: 10px;
+}
+
+.header h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.header h4 {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.col-md-4 {
+	width: 40%;
+	padding: 0;
+}
+
+.box {
+	border: 1px solid black;
+	padding: 20px;
+	background-color: white;
+	font-size: 1em;
+}
+
+.box h2 {
+	color: black;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+.meal-details {
+	margin: 0 20px 20px 10%;
+}
+
+.meal-details form {
+	margin: 30px 0 10px 0;
+	text-align: center;
+}
+
+.meal-details input {
+	padding: 10px;
+	margin: 0 5px 20px 0;
+	width: 80px;
+	border: none;
+	border-bottom: 1px solid #AEAEAE;
+}
+
+.btn {
+	width: 100px;
+	margin: 20px;
+}
+
+.alert{
+	text-align: center;
+}
+
+.charges-info {
+	margin: 20px 0;
+}
+
+.earnings-info {
+	margin: 30px 0;
+}
+
+.reset {
+	float: right;
+}
+
+ul {
+	list-style: none;
+}
+
+@media (max-width: 1000px) {
+	.col-md-6 {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
+@media (max-width: 600px) {
+	h1 { font-size: 2.5em; }
+	.header img { width: 65px; }
+}
